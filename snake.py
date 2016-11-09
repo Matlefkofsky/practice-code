@@ -11,7 +11,7 @@ FPS = 5
 pygame.init()
 fpsClock=pygame.time.Clock()
 
-SCREEN_WIDTH, SCREEN_HEIGHT = 640, 480
+SCREEN_WIDTH, SCREEN_HEIGHT = 700, 540
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT), 0, 32)
 surface = pygame.Surface(screen.get_size())
 surface = surface.convert()
@@ -20,7 +20,7 @@ clock = pygame.time.Clock()
 
 pygame.key.set_repeat(1, 40)
 
-GRIDSIZE=10
+GRIDSIZE=20
 GRID_WIDTH = SCREEN_WIDTH / GRIDSIZE
 GRID_HEIGHT = SCREEN_HEIGHT / GRIDSIZE
 UP    = (0, -1)
